@@ -22,7 +22,7 @@ Route::get('/nama', function(){
     return 'aku mnusia';
 });
 
-// belajar route
+// belajar route edit
 Route::get('home', [HomeController::class, 'index'])->name('home');
 
 
